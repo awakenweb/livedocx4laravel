@@ -1,6 +1,6 @@
 {
     "name": "awakenweb/livedocx4laravel",
-    "description": "",
+    "description": "Laravel Service Provider and Facade for Livedocx",
     "authors": [
         {
             "name": "Mathieu SAVELLI",
@@ -17,5 +17,5 @@
             "Awakenweb\\Livedocx4Laravel": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
