@@ -20,7 +20,7 @@ Add the following line to your composer.json
 
 ```json
 "require": {
-    "awakenweb/livedocx4laravel": "1.0"
+    "awakenweb/livedocx4laravel": "1.*"
 }
 ```
 
