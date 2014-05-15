@@ -1,0 +1,20 @@
+{
+    "name": "awakenweb/livedocx4laravel",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mathieu SAVELLI",
+            "email": "mathieu.savelli@awakenweb.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Awakenweb\\Livedocx4Laravel": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
