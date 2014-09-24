@@ -1,6 +1,7 @@
 {
     "name": "awakenweb/livedocx4laravel",
     "description": "Laravel Service Provider and Facade for Livedocx",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mathieu SAVELLI",
