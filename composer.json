@@ -10,13 +10,13 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.1.*",
-        "awakenweb/livedocx": "dev-master"
+        "illuminate/support": "4.*",
+        "awakenweb/livedocx": "1.0.1"
     },
     "autoload": {
         "psr-0": {
             "Awakenweb\\Livedocx4Laravel": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
