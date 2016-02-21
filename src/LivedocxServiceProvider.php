@@ -38,6 +38,13 @@ class LivedocxServiceProvider extends ServiceProvider
         });
     }
 
+    public function boot()
+    {
+        $this->publishes([
+            __DIR__ . '/livedocx.php' => config_path('livedocx.php'),
+        ]);
+    }
+
     /**
      * Get the services provided by the provider.
      *
