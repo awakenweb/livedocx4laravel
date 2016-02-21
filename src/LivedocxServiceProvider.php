@@ -25,8 +25,6 @@ class LivedocxServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->package('awakenweb/livedocx4laravel');
-
         $this->app->singleton('livedocx.livedocx', function() {
             $client = new Client(
                     new SoapClient(\Config::get('livedocx4laravel::wsdl'))
