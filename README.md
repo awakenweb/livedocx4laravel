@@ -31,12 +31,12 @@ Edit your config/app.php to add the service provider and the facade:
 ```php
 'providers' => [
     ...
-    'Awakenweb\Livedocx4Laravel\LivedocxServiceProvider',
+    Awakenweb\Livedocx4Laravel\LivedocxServiceProvider::class,
 ],
 ...
 'aliases' => [
     ...
-    'Livedocx' => 'Awakenweb\Livedocx4Laravel\Facades\Livedocx'
+    'Livedocx' => Awakenweb\Livedocx4Laravel\Facades\Livedocx::class,
 ],
 ```
 
@@ -60,5 +60,5 @@ Quick example.
 ```php
 //to list all templates present on Livedocx service
 $tpl = Livedocx::createRemoteTemplate();
-return $tpl->getAll();
+return $tpl->listAll();
 ```
