@@ -27,10 +27,10 @@ class LivedocxServiceProvider extends ServiceProvider
     {
         $this->app->singleton('livedocx.livedocx', function() {
             $client = new Client(
-                    new SoapClient(\Config::get('livedocx4laravel::wsdl'))
+                    new SoapClient(\Config::get('livedocx4laravel.wsdl'))
             );
             $client->connect(
-                    \Config::get('livedocx4laravel::username'), \Config::get('livedocx4laravel::password')
+                    \Config::get('livedocx4laravel.username'), \Config::get('livedocx4laravel.password')
             );
             return new Livedocx($client, new Container(), true);
         });
