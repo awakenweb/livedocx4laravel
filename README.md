@@ -1,4 +1,12 @@
 
+This package is not maintained anymore
+=======
+Livedocx service will shut down on Sept. 30th 2017.
+--------
+Use https://github.com/TextControl/txtextcontrol-reportingcloud-php instead
+-----------
+
+
 livedocx4laravel
 ================
 
